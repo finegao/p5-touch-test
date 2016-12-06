@@ -25,7 +25,7 @@ function draw() {
         var touchColor = colorList[i];
 
         fill(touchColor);
-        ellipse(touch.x, touch.y, 1, 1);
+        ellipse(touch.x, touch.y, 10, 10);
     }
 
 }
